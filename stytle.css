@@ -28,6 +28,7 @@ p {
     width: 100px;
     margin-left: 10px;
     
+    
 }
 
 .menu {
@@ -59,6 +60,16 @@ p {
     
 }
 
+.checkbutton{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
 .logo-main {
     width: 200px;
     margin-top: 45px;
@@ -72,6 +83,8 @@ p {
     width: 600px;
     margin-right: 25px;
     margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(239, 233, 225);
 
 
 }
@@ -150,94 +163,56 @@ p {
 
 
 .main3{
-    padding: 200px;
+    padding: 20px;
    
 
 }
 
-
-
-
-.card1{
-    text-align: center;
-    border: solid black;
-    height: 400px;
-   
-
-}
-
-.card2{
-    text-align: center;
-    border: solid black;
-    height: 400px;
-}
-
-.card3{
-    text-align: center;
-    border: solid black;
-    height: 400px;
-}
-
-
-.cards .card1 img{
-   
-   width: 200px;
-   
-}
-
-.cards .card2 img{
-    width: 200px;
-}
-
-.cards .card3 img{
-    width: 200px;
-}
 
 .cards{
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
 }
 
-.cards .card1{
+.cards .card{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 30px;
-    background-color: rgb(46, 196,182 );
-   
-    
+    background-color: rgb(46, 196, 182);
 }
 
-.cards .card2{
+.card{
+    width: 40%;
     display: flex;
-    flex-direction: column;
+    text-align: center;
+    border: solid black;
+    height: 300px;
     align-items: center;
-    background-color: rgb(46, 196,182 );
-    margin-right: 30px;
-    
-}
-
-.cards .card3{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(46, 196,182 );
-   
-    
-   
+    margin: 30px;
+    background-color: rgb(46, 96, 182);
 }
 
 .cards p{
     color: black;
+    margin: 10px;
 }
 
 .footer{
-    background-color: blue; 
-    height: 550px;
+    background-color: black; 
     
+    
+}
+
+.footer h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    
+    
+   
+
 }
 
 .footer .footer-section{
@@ -307,6 +282,8 @@ p {
     display: flex;
 
 }
+
+
 
 
 
